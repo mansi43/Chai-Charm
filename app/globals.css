@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-button {
+  @apply p-[2px_5px] md:p-[5px_10px] border border-pink-500  cursor-pointer text-[14px] md:text-[17px] bg-pink-500 shadow-custom;
+}
+
+.custom-button:hover {
+  @apply shadow-custom-hover font-semibold;
+}
+
+.bg-chaitea {
+  background-image: url('/images/background.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+.custom-text {
+  @apply bg-clip-text text-transparent bg-custom-gradient;
+}
+
